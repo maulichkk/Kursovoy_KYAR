@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/input.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header_container">
+            <h1 class="logo">Ironcity</h1>
+            <nav class="header_nav">
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                    <li><a href="uslugi.html">Услуги</a></li>
+                </ul>
+            </nav>
+            <div class="burger">
+                <span></span>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="contacts common-section">
+            <div class="container">
+                <div class="title-wrapper">
+                </div>
+                <div class="cards-wrapper">
+                    <div class="card">
+                        <img src="images/9554729.png" alt="телефончик">
+                        <h4>Электронная почта</h4>
+                        <p>Отправьте нам письмо и мы постараемся ответить на него как можно быстрее.</p>
+                        <h4><a href="#!">zakaz@mail.ru</a> (для заказов)</h4>
+                        <h4><a href="#!">info@mail.ru</a> (предложения)</h4>
+                        <h4><a href="#!">chief@mail.ru</a> (руководство)</h4>
+                    </div>
+                    <div class="card">
+                        <img src="images/228347.png" alt="телефончик">
+                        <h4>Связь с оператором</h4>
+                        <p>Оставьте заявку и наш оператор перезвонит вам!</p>
+                        <div class="button_pop">
+                        <a href="#!" id="open_pop_up">Оставить заявку</a>
+                        </div>
+                    </div>
+                    <div class="card3">
+                        <img src="images/w450h4001385925290Clock.png" alt="телефончик">
+                        <h4>Время работы</h4>
+                        <p>Здесь вы можете посмотреть время работы опреаторов.</p>
+                        <h4>Пн-Пт 8:00-22:00 (МСК)</h4>
+                        <h4>Сб-Вс 9:00-21:00 (МСК)</h4>
+                    </div> 
+                </div>
+            </div>
+
+        </section>
+        <div class="pop_up" id="pop_up">
+            <div class="pop_up_container">
+                <div class="pop_up_body" id="pop_up_body">
+                <div id="formContent">
+                <p>Оставить заявку</p>
+                <form id="requestForm" action="">
+                    <input type="text" placeholder="ФИО">
+                    <input type="text" placeholder="Номер телефона">
+                    <button type="submit">Заказать обратный звонок</button>
+                </form>
+                </div>
+                <div class="pokapoka" id="thankYouMessage" style="display: none;">
+                <p>Спасибо за заявку</p>
+                </div>
+                <div class="pop_up_close" id="pop_up_close">&#10006 </div>
+            </div>
+            </div>
+        </div>
+</main>
+<footer class="footer">
+    <div class="footer_copy">
+    <div class="container">
+        <p>Copyright Ironcity. Made by Ilya Milochkin</p>
+        </div>
+    </div>
+
+</footer>
+<script src="main.js"></script>
+<script>
+    document.querySelector('.burger').addEventListener('click', function() {
+        this.classList.toggle('active');
+        document.querySelector('.header_nav').classList.toggle('open');
+    })
+</script>
+</body>
+</html>

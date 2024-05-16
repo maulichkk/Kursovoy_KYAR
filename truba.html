@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Услуги</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/links.css">
+    <link rel="stylesheet" href="css/input.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header_container">
+            <h1 class="logo">Ironcity</h1>
+            <nav class="header_nav">
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                    <li><a href="uslugi.html">Услуги</a></li>
+                </ul>
+            </nav>
+            <div class="burger">
+                <span></span>
+            </div>
+        </div>
+    </header>
+    <div class="nav_drop">
+        <div class="nav_drops">
+            <nav class="v_nav">
+                <button onclick="toggleMenu()">Товары</button>
+                <div id="menu" class="menu hide">
+                    <ul>
+                        <a href="nozhki.html"><li>Литые мебельные ножки</li></a>
+                        <a href="truba.html"><li>Мебельные опоры из трубы</li></a>
+                        <a href="karkas.html"><li>Металлокаркасы</li></a>
+                        <a href="chert.html"><li>Опоры по чертежам заказчика</li></a>
+                    </ul>
+                </div>
+            </nav> 
+    </div>
+    </div>
+    <section class="container">
+    <div class="wrapper">
+        <div class="card">
+            <img src="images/whatsapp-image-2022-08-16_1660639369.jpeg" alt="" class="card-img">
+            <div class="card-title">Мебельная опора ВК 155 d51</div>
+            <div class="card-sub">
+                <p>Высота: 70 мм.</p>
+                <p>Упаковка: 50 шт.</p>
+                <h3>Цена: 110 руб./шт.</h3>
+            </div>
+            <div class="btn-keeper">
+                <a href="contacts.html" class="btn">Оставить заявку</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/3_-1_1655365992.jpg" alt="" class="card-img">
+            <div class="card-title">Опора мебельная ВК-140 (крепление площадка)</div>
+            <div class="card-sub">
+                <p>Высота: 160 мм.</p>
+                <p>Упаковка: 80 шт.</p>
+                <h3>Цена: 128 руб./шт.</h3>
+            </div>
+            <div class="btn-keeper">
+                <a href="contacts.html" class="btn">Оставить заявку</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/opora-v140-na_1655365633.jpg" alt="" class="card-img">
+            <div class="card-title">Мебельная опора В-140</div>
+            <div class="card-sub">
+                <p>Высота: 148 мм.</p>
+                <p>Упаковка: 60 шт.</p>
+                <h3>Цена: 117 руб./шт.</h3>
+            </div>
+            <div class="btn-keeper">
+                <a href="contacts.html" class="btn">Оставить заявку</a>
+            </div>
+        </div>
+        
+
+    </div>
+    </section>
+    </div>
+    <footer class="footer">
+        <div class="footer_copy">
+        <div class="container">
+            <div id="output" class="output"></div>
+            </div>
+        </div>
+
+    </footer>
+    <script src="name.js"></script>
+    <script>
+        document.querySelector('.burger').addEventListener('click', function() {
+            this.classList.toggle('active');
+            document.querySelector('.header_nav').classList.toggle('open');
+        })
+    </script>
+    <script>
+        let menuVisible = false;
+
+function toggleMenu() {
+    const menu = document.getElementById('menu');
+    menuVisible = !menuVisible;
+
+    if (menuVisible) {
+        const button = document.querySelector('button');
+        const buttonRect = button.getBoundingClientRect();
+        menu.style.top = `${buttonRect.bottom}px`;
+        menu.style.left = `${buttonRect.left}px`;
+
+        menu.classList.remove('hide');
+    } else {
+        menu.classList.add('hide');
+    }
+}
+    </script>
+</body> 
+</html>

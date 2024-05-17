@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Proxima_Nova_Condensed_Black';
-    src: url(/fonts/Proxima_Nova_Condensed_Black.otf);
+    src: url(/fonts/Proxima_Nova_Condensed_Black.woff);
 }
 body {
     font-family: 'Proxima_Nova_Condensed_Black', italic;

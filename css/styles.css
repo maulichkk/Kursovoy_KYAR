@@ -63,7 +63,7 @@ p {
 }
 
 .welcome {
-    background-image: url(/2-1\ 1.svg);
+    background-image: url(../2-1\ 1.svg);
     min-height: 600px;
     background-size: cover;
     padding: 50px 0;

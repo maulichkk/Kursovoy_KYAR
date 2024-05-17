@@ -42,7 +42,7 @@ p {
 }
 @font-face {
     font-family: 'Proxima_Nova_Condensed_Black';
-    src: url(/fonts/Proxima_Nova_Condensed_Black.woff);
+    src: url("../fonts/Proxima_Nova_Condensed_Black.woff") format("woff");
 }
 body {
     font-family: 'Proxima_Nova_Condensed_Black', italic;

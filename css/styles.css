@@ -97,7 +97,7 @@ p {
     display: inline-block;
     width: 30px; /* Ширина изображения маркера */
     height: 30px; /* Высота изображения маркера */
-    background-image: url(/images/57315\ 1.png); /* Путь к вашему изображению */
+    background-image: url(../images/57315\ 1.png); /* Путь к вашему изображению */
     background-size: 72%; /* Размеры изображения сохраняются и могут быть уменьшены, чтобы поместиться */
     margin-right: 1px; /* Отступ между изображением и текстом элемента списка */
     background-repeat: no-repeat;
@@ -108,7 +108,7 @@ p {
     display: inline-block;
     width: 30px; /* Ширина изображения маркера */
     height: 30px; /* Высота изображения маркера */
-    background-image: url(/images/57315-2\ 1.png); /* Путь к вашему изображению */
+    background-image: url(../images/57315-2\ 1.png); /* Путь к вашему изображению */
     background-size: auto; /* Размеры изображения сохраняются и могут быть уменьшены, чтобы поместиться */
     margin-right: 8px; /* Отступ между изображением и текстом элемента списка */
     background-repeat: no-repeat;
@@ -119,7 +119,7 @@ p {
     display: inline-block;
     width: 40px; /* Ширина изображения маркера */
     height: 30px; /* Высота изображения маркера */
-    background-image: url(/images/57315-345\ 1.png); /* Путь к вашему изображению */
+    background-image: url(../images/57315-345\ 1.png); /* Путь к вашему изображению */
     background-size:auto; /* Размеры изображения сохраняются и могут быть уменьшены, чтобы поместиться */
     margin-right: 1px; /* Отступ между изображением и текстом элемента списка */
     background-repeat: no-repeat;
@@ -132,7 +132,7 @@ p {
     display: inline-block;
     width: 30px; /* Ширина изображения маркера */
     height: 40px; /* Высота изображения маркера */
-    background-image: url(/images/57315-4\ 1.png); /* Путь к вашему изображению */
+    background-image: url(../images/57315-4\ 1.png); /* Путь к вашему изображению */
     background-size: 80%; /* Размеры изображения сохраняются и могут быть уменьшены, чтобы поместиться */
     margin-right: 1px; /* Отступ между изображением и текстом элемента списка */
     background-repeat: no-repeat;
